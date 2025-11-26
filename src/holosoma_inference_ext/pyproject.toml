@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "holosoma_inference_ext"
+version = "0.1.0"
+description = "Holosoma Inference Extension - Go2 Quadruped Support"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "holosoma_inference",
+    "pyyaml",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["holosoma_inference_ext*"]
+
+[tool.setuptools.package-data]
+holosoma_inference_ext = [
+    "py.typed",
+    "config/**/*.yaml",
+    "data/**/*.xml",
+    "data/**/*.obj",
+    "data/**/*.dae",
+]

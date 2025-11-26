@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "holosoma-ext"
+version = "0.1.0"
+description = "Optional experimental extensions for holosoma experiments."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["holosoma"]
+authors = [{ name = "HV Lab", email = "devnull@example.com" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+repository = "https://example.com/holosoma-ext"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["holosoma_ext*"]
