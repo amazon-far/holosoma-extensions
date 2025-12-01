@@ -1,11 +1,8 @@
-## My Project
+## Holosoma Extensions
 
-TODO: Fill this README out!
+`holosoma_extensions` is an extensions package for the [holosoma](https://github.com/amazon-far/holosoma) training framework for adding support for different robots.
 
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+Check out `src/holosom_ext` for an example extending support for Unitree Go2 quadruped robot.
 
 ## Security
 
