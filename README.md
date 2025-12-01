@@ -4,6 +4,12 @@
 
 Check out `src/holosom_ext` for an example extending support for Unitree Go2 quadruped robot.
 
+## Support
+
+If you need help with anything aside from issues feel free to join our [discord server](https://discord.gg/TPupMvpqHc).
+
+Use the discord to discuss larger plans and other more involved problems.
+
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
