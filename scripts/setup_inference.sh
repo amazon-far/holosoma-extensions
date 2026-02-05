@@ -28,3 +28,5 @@ cd $THIRDPARTY_DIR/holosoma/src/holosoma_inference
 pip install -e .
 cd $ROOT_DIR/src/holosoma_inference_ext
 pip install -e .
+cd $ROOT_DIR/src/holosoma_ext
+pip install -e .
